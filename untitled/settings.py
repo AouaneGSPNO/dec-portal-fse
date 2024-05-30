@@ -23,7 +23,9 @@ SECRET_KEY = '*&@-f$&287ci#qjq^d%4#uz^noubdgwi)+7gpv3afihj9g1@pd'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-aac64.up.railway.app',
+]
 ALLOWED_HOSTS = ["*"]
 
 # Application definition
